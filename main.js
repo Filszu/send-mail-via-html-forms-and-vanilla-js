@@ -1,4 +1,6 @@
+
 window.onload = () =>{
+    alert("chceckout peview.html to clear version")
     console.log('hello')
 
     //zmina wartosci obiektu na przekonwertowane

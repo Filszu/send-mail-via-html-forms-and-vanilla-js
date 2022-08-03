@@ -6,7 +6,7 @@ const parserConfig = {
 
 function generate(){
     paramsInput = document.querySelector('#query_string_params_input');
-    const templateBox = document.querySelector('textarea');
+    const templateBox = document.querySelector('.html_template>textarea');
 
     const paramsFromInput = paramsInput.value;
     const templateFromInput = templateBox.value;
@@ -21,5 +21,15 @@ function generate(){
     drawTemplate(template)
    
 
+    //additional function to show json
+    showjson()
     
 }
+
+function showjson(){
+    const box = document.querySelector('#jsonFsValues')
+    const content = JSON.stringify(parserConfig.fsValues)
+    box.value=content;
+
+}
+

@@ -2,7 +2,7 @@
 //tempalte, params
 function drawTemplate(view){
 
-    const tempalteBox = document.querySelector('textarea');
+    const tempalteBox = document.querySelector('.html_template textarea');
     const htmlTemplateBox = document.querySelector('.html_view')
     const parseredBox = document.querySelector('.parser')
     

@@ -23,9 +23,9 @@ examples of ***string_to_convert***
 ?name=Filip&email=filip%40ciac.me&luckyNumber=20
 ?name=Mort?age=20
 ```
-**default value is getting from web addres **
+**default value is getting from web addres**
 
-###bodyParser
+### bodyParser
 f(x) call
 ```javascript
 parser(parserConfig)
@@ -39,7 +39,7 @@ const parserConfig = {
 ```
 #### template
 How should look like template?
-**fields to replace: **
+**fields to replace:**
 ```javascript
 {{name}}
 ```
@@ -48,23 +48,23 @@ How should look like template?
 ```html
 <h1>Hello {{name}}</h1><p>{{age}}</p>ur email:<p>{{email}}<p>
 ```
-####fsValues
+#### fsValues
 fsValues should be object
 
-####example of parserConfig
+#### example of parserConfig
 ```javascript
 const parserConfig = {
 	fsValues: {name: 'Filip', email: 'filip@ciac.me', luckyNumber: '20'}
 	template: "<h1>Hello</h1><p>{{name}}</p><p>{{email}}<h3>{{age}}</h3><hr>"
 }
 ```
-###generating Preview
+### generating Preview
 ```javascript
 drawTemplate(view)
 ```
-***view *** - just html
+***view*** - just html
 
-###sending email
+### sending email
 SOON
 
 
